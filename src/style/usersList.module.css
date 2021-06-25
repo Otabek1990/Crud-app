@@ -1,0 +1,26 @@
+.UsersListContainer{
+    margin-top: 20px;
+    background-color: royalblue;
+
+}
+
+ table th, tr,td{
+    color:rgb(14, 22, 21)
+}  
+
+input{
+    border:none;
+    outline:none;
+    background-color: transparent;
+}
+
+
+select{
+    background-color: transparent;
+    border:none;
+    outline:none;
+    cursor:pointer
+}
+select option{
+    cursor: pointer;
+}

@@ -1,0 +1,83 @@
+.MainContainer{
+    height: 100vh;
+    background-color:white;
+    position: relative;
+    display: grid;
+    grid-template-columns: 240px auto;
+    transition: 0.6s ease;
+
+}
+
+
+.UsersContainer{
+    background-color:white;
+    padding:0 30px
+}
+.create_user{
+    margin-top: 10px;
+    background-color: rgb(93, 69, 204);
+    padding:22px 15px;
+    overflow-x: scroll;
+}
+.create_user h1{
+    color:white;
+    font-size: 27px;
+    font-weight: 500;
+}
+form{
+    overflow-x: scroll;
+    padding: 30px 0;
+    margin-top: 10px;
+
+}
+.Labels{
+    margin: 10px 0;
+   padding-bottom: 15px;
+   display: grid;
+   align-items: center;
+   grid-template-columns: 120px auto;
+}
+.Labels label{
+   margin-top: 12px;
+}
+
+.Labels input{
+width:190px;
+border-radius: 2px;
+outline:none;
+border: none;
+border-bottom: 1px solid black;
+}
+.Labels select{
+   cursor: pointer;
+   width:190px;
+   outline:none;
+   border:none;
+   border-bottom: 1px solid black;
+
+   
+}
+.Labels input:hover{
+    outline: none;
+}
+.Checkbox input{
+    margin-left: 40px;
+    cursor: pointer;
+    
+}
+.Buttons{
+    margin:30px 0;
+    float: right;
+}
+.Buttons button{
+    background-color: blueviolet;
+    padding:14px 20px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    border:none;
+    border-radius: 4px;
+    color:white;
+}
+.Buttons button:hover{
+    background-color:olivedrab;
+}

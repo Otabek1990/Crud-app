@@ -1,0 +1,84 @@
+.AddNewUser{
+    margin-top: 10px;
+    background-color:yellowgreen;
+    width: 100%;
+    border-radius: 4px;
+    color:white;
+padding: 20px;
+overflow-x: scroll;
+
+}
+.UserSearch{
+    display: flex;
+    justify-content: space-between;
+}
+.UserSearch .Left{
+    display: flex;
+    flex-direction:column;
+}
+.Left p{
+    padding-left: 0;
+    font-size: 14px;
+}
+.UserSearch .Right{
+    float: right;
+    width:330px ;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+.UserSearch .Right input{
+    background-color: transparent;
+    width: 282px;
+    border:none;
+    outline: none;
+    margin-top: 16px;
+    color:white
+}
+input::placeholder{
+color:gray;
+}
+.UserSearch .Right svg{
+    cursor: pointer;
+}
+.Add_New{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Add_New button{
+    background-color: royalblue;
+color:white;
+border: none;
+width: 100px;
+border-radius: 5px;
+height: 40px;
+}
+.Add_New button:hover{
+    background-color:orange
+}
+.Type{
+    width: 120px;
+    margin-top: 15px;
+
+}
+
+.Type select{
+    width: 100%;
+    cursor:pointer;
+    outline:none;
+    border:none;
+    background-color: transparent;
+    color:white;
+    padding-bottom: 3px;
+    border-bottom: 1px solid rgb(36, 20, 15);
+
+}
+.Type option{
+    transition: 0.6s ease;
+    color:black
+}
+.Add_New .Right{
+    border-bottom: 1px solid black;
+
+}

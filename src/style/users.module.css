@@ -1,0 +1,15 @@
+.UsersContainer{
+    background-color:white;
+    padding:0 30px;
+}
+
+.MainContainer{
+    height: 100vh;
+    background-color:white;
+    position: relative;
+    display: grid;
+    grid-template-columns: 240px auto;
+    transition: 0.6s ease;
+
+}
+

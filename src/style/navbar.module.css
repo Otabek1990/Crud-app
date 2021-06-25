@@ -1,0 +1,22 @@
+ .Navbar{
+    display: flex;
+    justify-content: space-between;
+    cursor:pointer;
+    padding: 20px;
+    text-align: center;
+    margin:0 10px
+}
+.right{
+    display: flex;
+}
+.Navbar p,span{
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
+.Navbar span{
+    font-weight: 500;
+}
+.logout:hover{
+    text-decoration: underline;
+}

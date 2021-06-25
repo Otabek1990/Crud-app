@@ -1,0 +1,42 @@
+.SidebarContainer{
+    background-color:blue;
+
+}
+.SidebarContainer img{
+    height: 22px;
+
+}
+header{
+    height: 70px;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    padding:21px 5px;
+    cursor: pointer;
+    border-bottom: 1px solid red;
+
+}
+header h4{
+
+    padding-left: 10px;
+    font-size: 18px;
+    color:white;
+    font-weight: 400;
+
+}
+.Tasks,.Users{
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 40px;
+padding-top: 10px;
+display: flex;
+color:white;
+cursor: pointer;
+
+}
+ p{
+    padding-left: 10px;
+}
+.Tasks:hover,.Users:hover{
+    background-color: orange;
+}
