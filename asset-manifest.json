@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Crud-app/static/css/main.b1afa520.chunk.css",
+    "main.js": "/Crud-app/static/js/main.dd85410d.chunk.js",
+    "main.js.map": "/Crud-app/static/js/main.dd85410d.chunk.js.map",
+    "runtime-main.js": "/Crud-app/static/js/runtime-main.d9ee8aef.js",
+    "runtime-main.js.map": "/Crud-app/static/js/runtime-main.d9ee8aef.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/Crud-app/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.722ce6ae.chunk.js": "/Crud-app/static/js/2.722ce6ae.chunk.js",
+    "static/js/2.722ce6ae.chunk.js.map": "/Crud-app/static/js/2.722ce6ae.chunk.js.map",
+    "index.html": "/Crud-app/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/Crud-app/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.b1afa520.chunk.css.map": "/Crud-app/static/css/main.b1afa520.chunk.css.map",
+    "static/js/2.722ce6ae.chunk.js.LICENSE.txt": "/Crud-app/static/js/2.722ce6ae.chunk.js.LICENSE.txt",
+    "static/media/reactLogo.7c70f30f.png": "/Crud-app/static/media/reactLogo.7c70f30f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9ee8aef.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.722ce6ae.chunk.js",
+    "static/css/main.b1afa520.chunk.css",
+    "static/js/main.dd85410d.chunk.js"
+  ]
+}
