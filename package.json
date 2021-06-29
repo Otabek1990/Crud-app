@@ -1,6 +1,6 @@
 {
   "name": "finance-app",
-  "homepage":"http://Otabek1990.github.io/Crud-app",
+  "homepage": "http://Otabek1990.github.io/Crud-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.0.1",
     "firebase": "^8.6.2",
+    "gh-pages": "^3.2.3",
     "nanoid": "^3.1.23",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.0",
@@ -23,8 +24,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
