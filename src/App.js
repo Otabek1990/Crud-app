@@ -17,7 +17,9 @@ import {reducer} from './useContext';
 import Users from "./pages/Users";
 import Tasks from "./pages/Tasks";
 import AddUser from "./pages/AddUser";
+import ChangeUsers from "./pages/ChangeUsers";
 import AddTask from "./pages/AddTask";
+import ChangeTasks from "./pages/ChangeTasks";
 
 function App() {
   //const user = useSelector((state) => state.user);
@@ -30,8 +32,10 @@ function App() {
           <Route exact path="/" component={Main}/>
           <Route exact path="/users" component={Users} />
           <Route exact path="/tasks" component={Tasks} />
-          <Route exact path="/users/:addUser" component={AddUser} />
-          <Route exact path="/tasks/:addTask" component={AddTask} />
+          <Route exact path="/users/addUser" component={AddUser} />
+          <Route exact path="/users/changeUser/:id" component={ChangeUsers} />
+          <Route exact path="/tasks/addTask" component={AddTask} />
+          <Route exact path="/tasks/changeTask/:id" component={ChangeTasks} />
           <Route exact path="/signIn" component={SignIn}/>  
         </Switch>
       </div>

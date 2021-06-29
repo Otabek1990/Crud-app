@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useContext } from "react";
+import React, {useState, useEffect, useContext,useCallback } from "react";
 import style from "../style/tasks.module.css";
 import AddNewTask from "../components/AddNewTask";
 import TasksList from "../components/TasksList";
@@ -10,14 +10,19 @@ import NewContext from "../useContext";
 export default function Tasks() {
   const { dispatch } = useContext(NewContext);
 const [taskSearchItem, setTaskSearchItem] = useState("")
-  useEffect(() => {
+//-------------------------------
+ const getTaskDatas=useCallback(() => {
     db.collection("tasks").onSnapshot((snapshot) => {
       const taskdatas = snapshot.docs.map((doc) => {
         return { id: doc.id, ...doc.data() };
       });
       dispatch({ type: "ADD_TASKDATA", payload: taskdatas });
     })
-  }, [taskSearchItem]);
+  },[dispatch])
+  //------------------------------
+  useEffect(() => {
+   getTaskDatas()
+  }, [taskSearchItem,getTaskDatas]);
 
   return (
     <div className={style.MainContainer}>
